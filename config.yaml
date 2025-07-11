@@ -1,0 +1,60 @@
+# use `null` to represent `None`
+# PLM configs
+bert_path: FacebookAI/roberta-base
+add_special_tokens: True
+
+# dimension configs
+cl_middle: 100
+
+# basic settings for pretrain stage
+seed: 42
+enable_gpu: True
+cuda_index: 0
+pretrain_batch: 128
+pt_epoch: 2
+pt_lr: 1e-5
+adam_epsilon: 1e-8
+weight_decay: 0
+warmup_proportion: 0.1
+n_experts: 20
+temp: 0.1
+chunk_size: 768
+force_new: False
+alpha: 3
+beta: 2
+delta: 2
+
+# train settings
+data_dir: data
+dataset: MIND_small
+train_dir: train
+test_dir: test
+model_dir: ./model
+filename_pat: behaviors.tsv
+batch_size: 64
+npratio: 4
+enable_gpu: True
+num_workers: 16
+num_hidden_layers: 10
+num_freeze_layers: 8
+num_see_layers: 2
+use_transe: False
+
+# training
+epochs: 15
+lr: 1e-4
+bert_lr: 1e-5
+num_words_title: 21
+num_words_abstract: 50
+num_words_body: 50
+
+user_log_length: 50
+user_log_min: 3
+word_embedding_dim: 768
+freeze_embedding: False
+news_dim: 400
+ent_dim: 100
+news_query_vector_dim: 20
+user_query_vector_dim: 20
+num_attention_heads: 20
+drop_rate: 0.2
