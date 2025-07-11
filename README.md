@@ -1,4 +1,6 @@
 # IP2
+[![DOI](https://zenodo.org/badge/1017805219.svg)](https://doi.org/10.5281/zenodo.15861071)
+
 This is the official pytorch implementation of RecSys'25 paper 
 "IP2: Entity-Guided Interest Probing for Personalized News Recommendation". 
 
@@ -29,10 +31,10 @@ If you find this repository useful, please cite our paper:
 
 ```bibtex
 @inproceedings{wu2025IP2,
-	title={IP2: Entity-Guided Interest Probing for Personalized News Recommendation},
-	author={Wu, Youlin and Sun, Yuanyuan and Zhang, Xiaokun and Xu, Bo and Yang, Liang and Lin, Hongfei},
-	booktitle={Proceedings of the 19th ACM conference on recommender systems},
-	year={2025},
+    title={IP2: Entity-Guided Interest Probing for Personalized News Recommendation},
+    author={Wu, Youlin and Sun, Yuanyuan and Zhang, Xiaokun and Xu, Bo and Yang, Liang and Lin, Hongfei},
+    booktitle={Proceedings of the 19th ACM conference on recommender systems},
+    year={2025},
     doi={10.1145/3705328.3748091}
 }
 ```
