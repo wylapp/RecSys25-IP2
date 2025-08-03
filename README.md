@@ -32,7 +32,7 @@ If you find this repository useful, please cite our paper:
 ```bibtex
 @inproceedings{wu2025IP2,
     title={IP2: Entity-Guided Interest Probing for Personalized News Recommendation},
-    author={Wu, Youlin and Sun, Yuanyuan and Zhang, Xiaokun and Xu, Bo and Yang, Liang and Lin, Hongfei},
+    author={Wu, Youlin and Sun, Yuanyuan and Zhang, Xiaokun and Zhan, Haoxi and Xu, Bo and Yang, Liang and Lin, Hongfei},
     booktitle={Proceedings of the 19th ACM conference on recommender systems},
     year={2025},
     doi={10.1145/3705328.3748091}
